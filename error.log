@@ -1,0 +1,24 @@
+
+> nextjs-anchor@0.0.0 setup
+> npm run anchor-build && npm run codama:js
+
+
+> nextjs-anchor@0.0.0 anchor-build
+> cd anchor && anchor build
+
+Updating program ids...
+Syncing program ids for the configured cluster (devnet)
+
+Found incorrect program id declaration in "/home/samuel/projects/Forge/anchor/programs/vault/src/lib.rs"
+Updated to AkHAin2VBQpBdvQ46AmsHTZ17Z6JuaUQ3iFBd2Vda7Tm
+
+Found incorrect program id declaration in Anchor.toml for the program `vault`
+Updated to AkHAin2VBQpBdvQ46AmsHTZ17Z6JuaUQ3iFBd2Vda7Tm
+
+All program id declarations are synced.
+Please rebuild the program to update the generated artifacts.
+
+error: failed to parse lock file at: /home/samuel/projects/Forge/anchor/Cargo.lock
+
+Caused by:
+  lock file version `4` was found, but this version of Cargo does not understand this lock file, perhaps Cargo needs to be updated?
