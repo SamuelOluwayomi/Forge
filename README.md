@@ -4,7 +4,7 @@ A modern Solana decentralized application (dApp) starter built with Next.js, Tai
 
 > **Note:** This project is currently under active development. More details will be added here soon.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -28,13 +28,13 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-## 🏗️ Project Structure
+## Project Structure
 
 - **`app/`**: Next.js frontend code (React components, hooks, styles, providers)
 - **`anchor/`**: Solana smart contract workspace (Rust programs, tests)
 - **`codama.json`**: Configuration for `codama` JS client generation
 
-## 🛠️ Available Scripts
+## Available Scripts
 
 - `npm run dev`: Starts the Next.js development server
 - `npm run build`: Builds the Next.js application for production
@@ -43,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 - `npm run anchor-test`: Runs smart contract tests against LiteSVM
 - `npm run codama:js`: Regenerates the TypeScript client from the Anchor IDL
 
-## 🔧 Local Development
+## Local Development
 
 1. Start a local Solana validator:
    ```bash
@@ -58,7 +58,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
    ```
 3. Switch your app to use `localnet` in the connected wallet or Next.js UI container.
 
-## 🔗 Learn More
+## Learn More
 
 - [Solana Docs](https://solana.com/docs)
 - [Anchor Docs](https://www.anchor-lang.com/docs/introduction)
